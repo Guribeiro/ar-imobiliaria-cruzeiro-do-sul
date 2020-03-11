@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Times New Roman", Times, serif;
+    background: white;
+}
+
+
+header{
+    background: #0174DF;
+    padding: 15px;
+    text-align: center;
+
+}
+main{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+aside, nav{
+    padding: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+a:link, a:visited{
+    color: #f7b600;
+}
+a:hover{
+text-decoration: underline;
+
+}
+
+header a:link, header a:visited{
+    color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+
+}
+header a:hover{
+    color: #0174DF;
+    background-color: white;
+    text-decoration: none;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 2.5em;
+}
+

@@ -8,18 +8,21 @@ body{
     font-family: "Times New Roman", Times, serif;
     background: white;
 }
+footer p a {
+    text-decoration: none;
+    color: aliceblue;
+}
+footer p{
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: aliceblue;
+}
 
-
-header{
+header, footer{
     background: #0174DF;
     padding: 15px;
     text-align: center;
-
-}
-main{
-    width: 920px;
-    margin: 0 auto;
-    padding: 15px;
 
 }
 
@@ -28,7 +31,7 @@ aside, nav{
     text-align: center;
 }
 h1{ 
-    font-size: 2em;
+    font-size: 3em;
     padding: 20px;
     color: white;
 }
@@ -58,16 +61,22 @@ header a:hover{
 }
 
 main{
-    border: 1px solid red;
-    padding: 40px;
     width: auto;
     display: flex;
     align-items: center;
 }
 main section {
-    border: 1px solid red;
     padding: 30;
 
+}
+main section figure img{
+    width: 100%;
+}
+
+.article-paragraph{
+
+    padding: 10px;
+    margin: 10px;
 }
 
 

@@ -62,33 +62,62 @@ header a:hover {
 }
 
 main {
+    
+
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
 }
 
-main section {
+main section{
     width: 100%;
 }
-
 main section figure img {
     margin-top: 12.1%;
     width: 100%;
 }
 
-.section-paragraph {
+.section-images {
     padding: 20px;
     margin: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.article-paragraph {
-    font-size: 1.3em;
-    padding: 10px;
+.article-images {
+    padding: 30px;
+    margin: 30px;
+}
+
+.article-images figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.article-images figure img {
     width: 50%;
+    border-radius: 10px;
+}
+
+.article-images figure figcaption {
+    border: 1px solid #0174DF;
+    border-radius: 10px;
+    padding: 30px;
+    width: 40%;
+}
+
+.article-images figure figcaption hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #0174DF;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5px;
 }
 
 h2 {
@@ -97,11 +126,8 @@ h2 {
     padding: 10px;
 }
 
-.article-paragraph p, .article-paragraph h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+.section-images h2 {
+    font-size: 2.5em;
 }
 
 .aside-nav-services {

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+body {
+    font-size: 1em;
+    background: white;
+}
+
+footer p, footer a {
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+header, footer {
+    background: #0174DF;
+    padding: 15px;
+    text-align: center;
+}
+
+aside, nav {
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header a:link, header a:visited {
+    color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+header a:hover {
+    color: #0174DF;
+    background-color: white;
+}
+
+main {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+main section {
+    padding: 30;
+}
+
+main section figure img {
+    width: 100%;
+}
+
+.section-images {
+    padding: 20px;
+    margin: 20px;
+}
+
+.article-images {
+    padding: 30px;
+    margin: 30px;
+}
+
+.article-images figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.article-images figure img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.article-images figure figcaption {
+    border: 1px solid #0174DF;
+    border-radius: 10px;
+    padding: 30px;
+    width: 40%;
+
+}
+
+.article-images figure figcaption hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #0174DF;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+h2 {
+    color: #0174DF;
+    font-family: Trebuchet MS, sans-serif;
+    padding: 10px;
+}
+
+
+.aside-nav-services {
+    padding: 30px;
+}
+
+.nav-services {
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-services a {
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: #0174DF;
+}
+
+.nav-services a:link, .nav-services a:visited {
+    color: #0174DF;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.nav-services a:hover {
+    color: white;
+    background-color: #0174DF;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: #0174DF;
+    background-color: white;
+    border-radius: 10px;
+}

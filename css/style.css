@@ -140,27 +140,63 @@ footer nav a:hover {
     background-color: white;
     border-radius: 10px;
 }
+
 table {
     padding: 10px;
-    border: 1px solid red;
+    
     justify-content: space-between;
-    justify-content:center;
+    justify-content: center;
 }
-thead tr{
+
+table thead{
+    font-weight: bold;
+    color: #0174DF;
+}
+
+thead tr {
     justify-content: center;
     border: 1px solid blue;
 }
 
-thead, tbody, tr, th, td{
-    border: 1px solid red;
+
+thead, tbody, tr, th, td {
     padding: 10px;
-   
-    
 }
 
-.article-paragraph aside{
+button {
+    outline: none;
+    font-size: 1em;
+    background-color: white;
+    border: 2px solid #0174DF;
+    border-radius: 10px;
+    color: #0174DF;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 15%;
+}
+
+
+button:hover {
+    background-color: #0174DF;
+    /* Green */
+    color: white;
+}
+
+#buttons-zonas {
+    
     display: flex;
-    justify-content: center; 
-    border: 1px solid blue;
-    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#table-bairros {
+    
+    display: flex;
+    justify-content: center;
 }

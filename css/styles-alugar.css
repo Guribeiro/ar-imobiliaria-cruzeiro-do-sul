@@ -62,8 +62,6 @@ header a:hover {
 }
 
 main {
-    
-
     width: auto;
     height: auto;
     display: flex;
@@ -78,14 +76,13 @@ main section figure img {
     width: 100%;
 }
 
-.section-images {
-    padding: 20px;
-    margin: 20px;
-}
-
 .article-images {
-    padding: 30px;
-    margin: 30px;
+    
+    /*border: 1px solid red;*/
+    /*ESPAÇAMENTO EXAGERADO*/
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
 }
 
 .article-images figure {

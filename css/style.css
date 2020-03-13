@@ -78,8 +78,9 @@ main section figure img {
 }
 
 .section-paragraph {
-    padding: 20px;
+    /*padding: 20px;
     margin: 20px;
+    */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,6 +162,7 @@ thead tr {
 
 thead, tbody, tr, th, td {
     padding: 10px;
+    width: 200px;
 }
 
 button {
@@ -196,7 +198,6 @@ button:hover {
 }
 
 #table-bairros {
-    
     display: flex;
     justify-content: center;
 }

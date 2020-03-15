@@ -1,11 +1,11 @@
 
-const btnOeste = document.querySelector('#btnOeste')
-const btnLeste = document.querySelector('#btnLeste')
-const btnNorte = document.querySelector('#btnNorte')
-const btnSul = document.querySelector('#btnSul')
-const btnCentro = document.querySelector('#btnCentro')
+const btnOeste = document.querySelector('#btnOeste');
+const btnLeste = document.querySelector('#btnLeste');
+const btnNorte = document.querySelector('#btnNorte');
+const btnSul = document.querySelector('#btnSul');
+const btnCentro = document.querySelector('#btnCentro');
 
-const labelZones = document.querySelector('#label-zonas')
+const labelZones = document.querySelector('#label-zonas');
 
 
 

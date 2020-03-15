@@ -98,7 +98,7 @@ h2 {
     padding: 10px;
 }
 
-.article-paragraph p, .article-paragraph h2 {
+.article-paragraph p, .article-paragraph h2, .article-paragraph h3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,12 +144,11 @@ footer nav a:hover {
 
 table {
     padding: 10px;
-    
     justify-content: space-between;
     justify-content: center;
 }
 
-table thead{
+table thead {
     font-weight: bold;
     color: #0174DF;
 }
@@ -159,10 +158,9 @@ thead tr {
     border: 1px solid blue;
 }
 
-
 thead, tbody, tr, th, td {
     padding: 10px;
-    width: 200px;
+    width: 250px;
 }
 
 button {
@@ -183,6 +181,17 @@ button {
     width: 15%;
 }
 
+/*----------*/
+
+button:active {
+    background-color: #0174DF;
+    color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
+    transition-duration: 0.1s;
+}
+
+/*----------*/
 
 button:hover {
     background-color: #0174DF;
@@ -191,7 +200,6 @@ button:hover {
 }
 
 #buttons-zonas {
-    
     display: flex;
     align-items: center;
     justify-content: space-around;

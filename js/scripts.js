@@ -5,6 +5,85 @@ const btnNorte = document.querySelector('#btnNorte')
 const btnSul = document.querySelector('#btnSul')
 const btnCentro = document.querySelector('#btnCentro')
 
+const labelZones = document.querySelector('#label-zonas')
+
+
+
+function checkChildNode() {
+    const res = labelZones.hasChildNodes();
+
+    return res;
+}
+
+
+
+function addTextLeste() {
+
+    labelZones.innerHTML = '';
+
+    const textZone = document.createTextNode('Leste')
+
+    labelZones.appendChild(textZone);
+
+
+    return labelZones;
+
+
+}
+
+function addTextOeste() {
+
+    labelZones.innerHTML = '';
+
+    const textZone = document.createTextNode('Oeste')
+
+    labelZones.appendChild(textZone);
+
+
+    return labelZones;
+
+}
+
+function addTextNorte() {
+
+    labelZones.innerHTML = '';
+
+    const textZone = document.createTextNode('Norte')
+
+    labelZones.appendChild(textZone);
+
+
+    return labelZones;
+}
+
+function addTextSul() {
+
+    labelZones.innerHTML = '';
+
+    const textZone = document.createTextNode('Sul')
+
+    labelZones.appendChild(textZone);
+
+
+    return labelZones;
+}
+
+function addTextCentro() {
+
+    labelZones.innerHTML = '';
+
+    const textZone = document.createTextNode('Centro')
+
+    labelZones.appendChild(textZone);
+
+
+    return labelZones;
+
+}
+
+
+
+
 btnLeste.onclick = function tableLeste() {
     var container = document.querySelector("#table-bairros");
     container.innerHTML = [
@@ -40,9 +119,13 @@ btnLeste.onclick = function tableLeste() {
         '</tbody>',
         '</table>'
     ].join("\n");
+
+    addTextLeste();
+
+
 }
 
-btnOeste.onclick = function table(){
+btnOeste.onclick = function table() {
     var container = document.querySelector("#table-bairros");
     container.innerHTML = [
         '<table>',
@@ -77,9 +160,12 @@ btnOeste.onclick = function table(){
         '</tbody>',
         '</table>'
     ].join("\n");
+
+    addTextOeste();
+
 }
 
-btnNorte.onclick = function table(){
+btnNorte.onclick = function table() {
     var container = document.querySelector("#table-bairros");
     container.innerHTML = [
         '<table>',
@@ -114,9 +200,11 @@ btnNorte.onclick = function table(){
         '</tbody>',
         '</table>'
     ].join("\n");
+
+    addTextNorte();
 }
 
-btnSul.onclick = function table(){
+btnSul.onclick = function table() {
     var container = document.querySelector("#table-bairros");
     container.innerHTML = [
         '<table>',
@@ -151,9 +239,11 @@ btnSul.onclick = function table(){
         '</tbody>',
         '</table>'
     ].join("\n");
+
+    addTextSul();
 }
 
-btnCentro.onclick = function table(){
+btnCentro.onclick = function table() {
     var container = document.querySelector("#table-bairros");
     container.innerHTML = [
         '<table>',
@@ -172,7 +262,7 @@ btnCentro.onclick = function table(){
         '</tr>',
         '<tr>',
         '<td>República</td>',
-        '<td>R$ 3.1000</td>',
+        '<td>R$ 3.100</td>',
         '<td>R$ 370.000</td>',
         '</tr>',
         '<tr>',
@@ -188,6 +278,8 @@ btnCentro.onclick = function table(){
         '</tbody>',
         '</table>'
     ].join("\n");
+
+    addTextCentro();
 }
 
 

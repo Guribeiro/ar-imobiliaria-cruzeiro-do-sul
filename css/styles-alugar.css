@@ -109,6 +109,7 @@ main figure img {
 }
 
 .article-images figure figcaption {
+    text-align: left;
     width: 30vw;
     height: 25vh;
     border: 1px solid #0174DF;

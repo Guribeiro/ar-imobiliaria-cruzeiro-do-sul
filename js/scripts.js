@@ -8,7 +8,6 @@ const btnCentro = document.querySelector('#btnCentro');
 const labelZones = document.querySelector('#label-zonas');
 
 
-
 function checkChildNode() {
     const res = labelZones.hasChildNodes();
 

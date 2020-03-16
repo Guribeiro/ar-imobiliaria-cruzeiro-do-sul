@@ -5,6 +5,7 @@
 }
 
 body {
+    height: 100vh;
     font-size: 1em;
     background: white;
 }
@@ -28,6 +29,7 @@ header, footer {
     padding: 15px;
     text-align: center;
 }
+
 
 aside, nav {
     padding: 15px;
@@ -61,51 +63,62 @@ header a:hover {
     background-color: white;
 }
 
-main {
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-}
-
-main section{
-    width: 100%;
-}
-main section figure img {
+main figure img {
     margin-top: 12.1%;
     width: 100%;
+    display: inline-block;
+}
 
+.section-images{
+    
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    
+   
 }
 
 .article-images {
-    
-    /*border: 1px solid red;*/
-    /*ESPAÇAMENTO EXAGERADO*/
+  
+    width: auto;
+    margin:auto;
+    display: flex;
     justify-content: center;
-    padding: 15px;
-    margin: 15px;
+    align-items: center;
+    padding: 30px ;
+    
 }
 
 .article-images figure {
+    padding: 20px;
+   
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
+    
 }
 
 .article-images figure img {
-    width: 50%;
+    width: 40vw;
+    height: 60vh;
     border-radius: 10px;
+    margin: 0;
 }
 
 .article-images figure figcaption {
+    width: 30vw;
+    height: 25vh;
     border: 1px solid #0174DF;
     border-radius: 10px;
     padding: 30px;
-    width: 40%;
+    margin: 0;
 }
 
 .article-images figure figcaption hr {
-    display: block;
+    
     height: 1px;
     border: 0;
     border-top: 1px solid #0174DF;
@@ -128,13 +141,14 @@ h2 {
     font-size: 2.5em;
 }
 
-.aside-nav-services {
-    padding: 30px;
+.aside-nav-services h2 {
+    font-size: 24px;
+   
 }
 
 .nav-services {
-    padding: 0px;
-    width: 100%;
+    
+    width: auto;
     display: flex;
     justify-content: space-around;
 }

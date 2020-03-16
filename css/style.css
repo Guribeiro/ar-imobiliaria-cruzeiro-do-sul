@@ -4,9 +4,11 @@
     font-family: Trebuchet MS, sans-serif;
 }
 
-p{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+p {
+    align-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 body {
     height: 100vh;
     font-size: 1em;
@@ -31,6 +33,11 @@ header, footer {
     background: #0174DF;
     padding: 15px;
     text-align: center;
+
+}
+
+main {
+    flex-direction: column;
 }
 
 aside, nav {
@@ -42,6 +49,18 @@ h1 {
     font-size: 3em;
     padding: 20px;
     color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #0174DF;
+    font-family: Trebuchet MS, sans-serif;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    padding: 5px;
 }
 
 a {
@@ -65,67 +84,54 @@ header a:hover {
     background-color: white;
 }
 
-main {
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-}
-
-main section {
-    width: 100%;
-}
-
-main section figure img {
+main figure img {
     margin-top: 12.1%;
     width: 100%;
+    display: inline-block;
 }
 
 .section-paragraph {
     /*padding: 20px;
     margin: 20px;
     */
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.article-paragraph {
     font-size: 1.3em;
-    padding: 10px;
-    width: 50%;
-}
-
-h2 {
-    color: #0174DF;
-    font-family: Trebuchet MS, sans-serif;
-    padding: 10px;
-}
-
-.article-paragraph p, .article-paragraph h2, .article-paragraph h3 {
-    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+}
+
+.section-paragraph article {
+    
+    width: 50vw;
+    margin: 2% auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-paragraph article p {
+    padding: 20px;
 }
 
 .aside-nav-services {
-    padding: 30px;
+    
+    font-size: 16px;
+    margin-bottom: 50px;
 }
 
 .nav-services {
-    padding: 0px;
-    width: 100%;
+    
+    font-size: 1em;
+    padding: 5px;
+    width: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 
 .nav-services a {
-    font-size: 1.1em;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px;
     color: #0174DF;
 }
 
@@ -147,20 +153,9 @@ footer nav a:hover {
     border-radius: 10px;
 }
 
-table {
-    padding: 10px;
-    justify-content: space-between;
-    justify-content: center;
-}
-
 table thead {
     font-weight: bold;
     color: #0174DF;
-}
-
-thead tr {
-    justify-content: center;
-    border: 1px solid blue;
 }
 
 thead, tbody, tr, th, td {
@@ -213,4 +208,22 @@ button:hover {
 #table-bairros {
     display: flex;
     justify-content: center;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: 1.2s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate{
+    
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
 }
